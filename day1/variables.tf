@@ -12,6 +12,6 @@ variable "type" {
 }
 variable "keyname" {
     type = string
-    default = "31may"
+    default = "uskey"
   
 }
