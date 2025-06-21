@@ -3,8 +3,8 @@ resource "aws_instance" "dev" {
     instance_type = "t2.micro"
     key_name = "uskey"
     availability_zone = "us-east-1a"
-    # tags = {
-    #     Name = "dev"
-    # }
+    tags = {
+        Name = "dev"
+    }
   
 }
